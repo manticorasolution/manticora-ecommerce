@@ -1,0 +1,39 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Feijão 1kg",
+      "image": "https://cdn.urbano.com.br/uploads/feijao-corda-1kg.png",
+      "price": 20,
+      "isNew": true
+    },
+    {
+      "id": 2,
+      "name": "Arroz 250 g",
+      "image": "https://images.rappi.com.br/products/2094911911-1569525159332.png?e=webp",
+      "price": 13,
+      "isNew": true
+    },
+    {
+      "id": 3,
+      "name": "Coca cola 2L",
+      "image": "https://static.clubeextra.com.br/img/uploads/1/77/659077.png?imtype=imgProductDetail",
+      "price": 8,
+      "isNew": true
+    },
+    {
+      "id": 4,
+      "name": "Energético",
+      "image": "https://static.clubeextra.com.br/img/uploads/1/360/659360.png?imtype=imgProductDetail&size=sm",
+      "price": 7,
+      "isNew": true
+    },
+    {
+      "id": 5,
+      "name": "Leite 1L",
+      "image": "https://static.clubeextra.com.br/img/uploads/1/660/591660.png?imtype=imgProductDetail&size=sm",
+      "price": 4,
+      "isNew": true
+    }
+  ]
+}
