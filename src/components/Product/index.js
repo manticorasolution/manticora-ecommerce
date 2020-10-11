@@ -53,7 +53,7 @@ const Product = ({
         <AddCart>
           <div>
             <button disabled={productQuantity <= 1} type="button" onClick={() => handleChange('remove')}>-</button>
-            {productQuantity}
+            <span>{productQuantity}</span>
             <button type="button" onClick={() => handleChange('add')}>+</button>
           </div>
           <div>

@@ -200,8 +200,7 @@ export const Product = styled.div`
   }
 
   img {
-      max-width: 40px;
-      max-height: 75px;
+      max-height: 100px;
     }
 `;
 

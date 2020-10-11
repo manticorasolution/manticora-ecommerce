@@ -14,7 +14,7 @@ export const ProductHeader = styled.div`
 `;
 
 export const ProductImage = styled.div`
-  margin: 0 auto;
+  margin: 20px auto;
   img {
     height: 200px;
   }
@@ -47,6 +47,11 @@ export const AddCart = styled.div`
   justify-content: space-evenly;
   align-items: flex-end;
 
+  span {
+    font-weight: bold;
+    font-size: 16px;
+  }
+
   div {
     &:first-child {
       button {
@@ -57,6 +62,8 @@ export const AddCart = styled.div`
         width: 25px;
         background: #fff;
         border-radius: 50%;
+        font-weight: bold;
+        font-size: 16px;
       }
       margin-bottom: 5px;
     }
