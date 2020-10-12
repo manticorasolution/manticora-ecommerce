@@ -6,12 +6,14 @@ import GlobalStyle from './styles/global';
 
 function App() {
   return (
-    <BrowserRouter>
-      <CartProvider>
-        <Routes />
-        <GlobalStyle />
-      </CartProvider>
-    </BrowserRouter>
+    <>
+      <GlobalStyle />
+      <BrowserRouter>
+        <CartProvider>
+          <Routes />
+        </CartProvider>
+      </BrowserRouter>
+    </>
   );
 }
 
