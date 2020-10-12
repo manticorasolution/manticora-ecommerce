@@ -15,12 +15,30 @@ export const Menu = styled.div`
 export const MenuItem = styled.span`
     margin: 0 10px;
 
+    &.bars {
+      display: none;
+      svg {
+        height: 40px;
+        width: 40px;
+      }
+    }
+
     a {
         text-decoration: none;
         text-transform: uppercase;
         color: #000;
         font-weight: bold;
         font-size: 16px;
+    }
+
+    @media(max-width: 600px) {
+      display: none;
+      &:first-child {
+        display: block;
+      }
+      &.bars {
+        display: block;
+      }
     }
 `;
 

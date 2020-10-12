@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { AiOutlineSearch, AiOutlineShoppingCart } from 'react-icons/ai';
 import { BsPerson } from 'react-icons/bs';
+import { FaBars } from 'react-icons/fa';
 import {
   Container, Menu, MenuItem, IconItem, Badge,
 } from './styles';
@@ -40,6 +41,10 @@ const Header = () => {
           <Link to="/">
             <span>Contato</span>
           </Link>
+        </MenuItem>
+
+        <MenuItem className="bars">
+          <FaBars />
         </MenuItem>
 
       </Menu>

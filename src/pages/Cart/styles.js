@@ -5,8 +5,11 @@ export const Container = styled.div`
   display: grid;
   grid-template-columns: 1fr 300px;
   grid-gap: 15px;
-
   margin-top: 50px;
+
+  @media(max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
 
   > section {
     > h1 {
