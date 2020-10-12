@@ -9,13 +9,13 @@
 > Uma loja virtual simples pra ajudar o seu João do mercadinho da esquina, ou a dona Maria da frutaria da rua de cima, a lucrarem mais e controlarem melhor o seu negócio.
 > Feito com ❤ por Manticora.app.
 
-### 🏠 [Homepage](manticora.app)
+### 🏠 [Homepage](https://manticora.app)
 
-### ✨ [Demo](lojavirtual.manticora.app)
+### ✨ [Demo](https://lojavirtual.manticora.app)
 
 ## Requerimentos
 
-[x] NodeJS (para rodar o comando npm)
+- [x] NodeJS (para rodar o comando npm)
 
 ## Instalação
 
