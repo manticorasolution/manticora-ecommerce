@@ -2,7 +2,6 @@ import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
     @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap');
 
     * {
         margin: 0;
@@ -15,8 +14,8 @@ export default createGlobalStyle`
         background: #fff;
     }
 
-    small, span, h1 body, input, button {
-      font-family: 'Open Sans', Roboto, sans-serif;
+    small, span, h1, body, input, button {
+      font-family: 'Open Sans', Roboto, sans-serif !important;
     }
 
     body, input, button {
